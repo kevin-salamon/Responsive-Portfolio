@@ -1,0 +1,25 @@
+.header-color {
+    background-color: #6600cc;
+}
+
+.header-text, .brand-text {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bolder;
+    color: white;
+}
+
+.brand-text {
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid white;
+}
+
+.name-text {
+    font-family: 'Anton', sans-serif;
+}
+
+.image-large {
+    height: 300px;
+    width: 250px;
+}
