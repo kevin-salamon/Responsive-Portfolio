@@ -1,3 +1,7 @@
+.background {
+    background-color: white;
+}
+
 .header-color {
     background-color: #6600cc;
 }
@@ -8,6 +12,14 @@
     color: white;
 }
 
+.subheader-text {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 34px;
+    margin-top: 20px;
+}
+
 .brand-text {
     margin-left: 20px;
     padding-left: 20px;
@@ -15,11 +27,46 @@
     border: 2px solid white;
 }
 
-.name-text {
-    font-family: 'Anton', sans-serif;
+.section-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+    font-size: 20px;
 }
 
 .image-large {
-    height: 300px;
+    height: 325px;
     width: 250px;
+    border: 3px solid white;
 }
+
+.image-small {
+    height: 200px;
+    width: 300px;
+    border: 3px solid white;
+}
+
+.content-border {
+    border: 3px solid white;
+    margin-top: 50px;
+}
+
+.content-text {
+    color: white;
+    font-weight: bold;
+}
+
+.fixed-footer {
+    text-align: center;
+    background-color: #6600cc;
+    position: fixed;
+    font-family: 'Playfair Display', serif;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
