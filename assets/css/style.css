@@ -1,5 +1,5 @@
 .background {
-    background-color: white;
+    background-color: #F5FFFF
 }
 
 .header-color {
@@ -59,6 +59,10 @@
     font-weight: bold;
 }
 
+.special-border {
+    border: 2px solid #6600cc;
+}
+
 .fixed-footer {
     text-align: center;
     background-color: #6600cc;
@@ -70,3 +74,4 @@
     color: white;
     text-align: center;
   }
+ 

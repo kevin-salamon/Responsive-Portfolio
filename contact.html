@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>About Me</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+
+<body class="background">
+  <nav class="nav nav-tabs nav-fill header-color">
+    <a class="navbar-brand brand-text" href="index.html">Kevin Salamon</a>
+    <a class="nav-item nav-link header-text" href="index.html">About Me</a>
+    <a class="nav-item nav-link header-text" href="contact.html">Contact Me</a>
+    <a class="nav-item nav-link header-text" href="portfolio.html">My Portfolio</a>
+  </nav>
+
+  <div class="container">    
+    <div class="row">
+      <div class="col-sm-12 section-text border border-dark rounded text-sm-center header-color content-text text-uppercase mt-5 mb-5">
+        Contact Me
+      </div>
+    </row>
+    <div class="col-sm-12 border border-dark rounded p-5 header-color section-text text-light">
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email@email.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+          <button type="submit" class="btn btn-primary mt-3 mb-n3s">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
+
+<div class="fixed-footer">
+  <a href="index.html">Home</a>
+</div>
+
 </html>
