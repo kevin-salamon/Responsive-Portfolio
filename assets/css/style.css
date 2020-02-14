@@ -1,3 +1,15 @@
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+a:active {
+    color: darkgray;
+}
+
 .check {
     border: 1px solid black;
     height: 225px;
@@ -86,6 +98,11 @@
     border: 3px solid white;
 }
 
+.contact-main {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
 .content-border {
     border: 3px solid white;
     margin-top: 50px;
@@ -101,18 +118,38 @@
     border: 2px solid #6600cc;
 }
 
-.fixed-footer {
+.footer {
     text-align: center;
     background-color: purple;
-    position: fixed;
-    font-family: 'Playfair Display', serif;
-    border: 1px solid black;
-    left: 0;
-    bottom: 0;
+    height: 500px;
     width: 100%;
     color: white;
     text-align: center;
   }
+
+.footer-main {
+    color: white;
+    font-size:44px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.footer-sub {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;    
+}
+
+.footer-content {
+    color: white;
+    transition: all 0.70s ease;
+}
+
+.footer-content:hover {
+    font-size:22px;
+}
+
 
   @media screen and (min-width: 578px) {
 
