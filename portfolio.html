@@ -11,81 +11,44 @@
 </head>
 
 <body class="background">
+
   <nav class="nav nav-tabs nav-fill header-color">
     <a class="navbar-brand brand-text" href="index.html">Kevin Salamon</a>
     <a class="nav-item nav-link header-text" href="index.html">About Me</a>
     <a class="nav-item nav-link header-text" href="portfolio.html">My Portfolio</a>
   </nav>
 
-  <div class="jumbotron mt-5 bg-primary special-border">
-    <h1 class="display-4 subheader-text rounded">My Projects</h1>
-    <hr class="my-4 header-color">
-    <p  class="content-text rounded">Please see below for summaries and links to all my past and ongoinbg coding work!</p>
-  </div>
-  <div class="container">
-    <div class="row mb-5">
-      <div class="col-lg-2"></div>
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="assets/images/gamefound.png" class="card-img-top check" alt="proj1">
-          <div class="card-body">
-            <h5 class="card-title">GameFound</h5>
-            <p class="card-text">A website that will help you find the perfect game to play, through the help of the RAWG Database API.</p>
-            <a href="https://github.com/kevin-salamon/Game-Found" class="btn btn-primary">GitHub Repository</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 align-porfolio">
-        <div class="card" style="width: 18rem;">
-          <img src="assets/images/codingquiz.png" class="card-img-top check" alt="proj2">
-          <div class="card-body">
-            <h5 class="card-title">Javascript Quiz</h5>
-            <p class="card-text">Take a short coding quiz, dynamically generated through Javascript DOM manipulation, and test your knowledge!</p>
-            <a href="https://github.com/kevin-salamon/Kevin-Coding-Quiz" class="btn btn-primary">GitHub Repository</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-2"></div>
-    </div>
-    <div class="row mb-5">
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="assets/images/workdaycalendar.png" class="card-img-top check" alt="proj3">
-          <div class="card-body">
-            <h5 class="card-title">Calendar Day Planner</h5>
-            <p class="card-text">A simple application that allows the user to write activities to a calendar, and saves them to local storage. Hour tab color changes based on the hour.</p>
-            <a href="https://github.com/kevin-salamon/Day-Planner-Calendar" class="btn btn-primary">GitHub Repository</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="assets/images/burger.png" class="card-img-top check" alt="proj4">
-          <div class="card-body">
-            <h5 class="card-title">EAT-DA-BURGER</h5>
-            <p class="card-text">An app testing the boundaries of the MVC and use of the ORM, by tracking your burger choices. Be sure to run the server.js file in Node.js, and install all necessary node modules.</p>
-            <a href="https://github.com/kevin-salamon/MVC-Handlebars" class="btn btn-primary">GitHub Repository</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="http://placehold.it/200x200" class="card-img-top" alt="proj5">
-          <div class="card-body">
-            <h5 class="card-title">Rock Paper Scissors</h5>
-            <p class="card-text">Info text coming soon.</p>
-            <a href="#" class="btn btn-primary">Coming Soon</a>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="jumbotron jumbotron-portfolio mt-3" style="height:200px; background-color: purple; border:8px solid black;">
+    <h1 class="display-4" style="text-align:center; color:white;">My Portfolio</h1>
   </div>
 
+  <div class="jumbotron jumbotron-portfolio" id="slot1">
+    <h1 class="display-4" style="text-align:center; padding-top:5%; color:purple;">Table Manager</h1>
+    <p class="lead" style="text-align:center; background-color: black;">A simple, streamlined, and user-friendly application that allows restaurant owners and staff 
+    to build their custom restaurant layout from scratch, assign customers to tables, and track those customers' meals from start to finish. Uses Sequelize and Express.</p>
+  </div>
+
+  <div class="jumbotron jumbotron-portfolio" id="slot2">
+    <h1 class="display-4" style="text-align:center; padding-top:5%; color:purple;">GameFound</h1>
+    <p class="lead" style="text-align:center; background-color: black;">An application that makes full use of the RAWG Database API to sort through 350,000+ games and return the perfect video game for you, based on your criteria.</p>
+  </div>
+
+  <div class="jumbotron jumbotron-portfolio" id="slot3">
+    <h1 class="display-4" style="text-align:center; padding-top:5%; color:purple;">Team Profile Generator</h1>
+    <p class="lead" style="text-align:center; background-color: black;">A command-line interface application that will generate sample user profiles for a software development team, based on user input. 
+    It then builds you your own HTML page with that information, formatted for easy use!</p>
+  </div>
+
+  <div class="jumbotron jumbotron-portfolio" id="slot4">
+    <h1 class="display-4" style="text-align:center; padding-top:5%; color:purple;">Employee Tracker</h1>
+    <p class="lead" style="text-align:center; background-color: black;">An application using Node.js and SQL/mySQL to track and manage a database containing all information about employees, company roles, and departments in your company.</p>
+  </div>
+
+  <div class="jumbotron jumbotron-portfolio" id="slot5">
+    <h1 class="display-4" style="text-align:center; padding-top:5%; color:black">EAT-DA-BURGER</h1>
+    <p class="lead" style="text-align:center; background-color: black;">An application made to test the MVC model and Express Handlebars. Choose your burger and eat it!</p>
+  </div>
 
 </body>
-
-<div class="fixed-footer">
-  <a href="index.html">Home</a>
-</div>
 
 </html>
